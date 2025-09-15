@@ -1,0 +1,49 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background: black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(red, green, blue, alpha);
+}
+
+h1 {
+    text-align: center;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #f4f4f4;
+    color: blue;
+    border: black;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blueviolet;
+}
+
+.result-container {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: blanchedalmond;
+    border-radius: 8px;
+}
